@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const URL = "mongodb://localhost:27017/newDashboard"
+const URL = "mongodb+srv://prashantmalviya13:3KI4xXbtaNFFbVrY@cluster0.arkkni1.mongodb.net/newDashboard"
 
 const connectDb = async()=>{
     try {

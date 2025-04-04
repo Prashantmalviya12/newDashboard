@@ -5,7 +5,7 @@ const userRouter = require('./routers/UserRoute')
 const loginRoute = require('./routers/AuthRoute')
 const cors = require("cors");
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 app.use(cors());
 
