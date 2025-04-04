@@ -64,7 +64,7 @@ const Signup = () => {
           }
     
         try {
-          const response = await axios.post("http://localhost:8000/user", formData);
+          const response = await axios.post("https://newdashboard-1inb.onrender.com/user", formData);
           console.log("Signup successful:", response);
         //   alert("Signup Successful!");
         if(response){

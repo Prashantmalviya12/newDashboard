@@ -14,7 +14,7 @@ const Login = () => {
     console.log(email,'',password);
     
     try {
-      const response = await axios.post('http://localhost:8000/login', { email, password })
+      const response = await axios.post('https://newdashboard-1inb.onrender.com/login', { email, password })
       console.log('Login successful:', response.data)
       if (response) {
         navigate('/dashboard')

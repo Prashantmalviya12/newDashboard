@@ -9,7 +9,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchUserDetail = async () => {
       try {
-        const res = await axios.get(`http://localhost:8000/user/${userId}`);
+        const res = await axios.get(`https://newdashboard-1inb.onrender.com/user/${userId}`);
         console.log(res.data);
         
         setData(res.data);
